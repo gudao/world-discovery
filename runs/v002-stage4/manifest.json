@@ -1,0 +1,11 @@
+{
+  "python_packages": {
+    "mujoco": "3.15.0",
+    "numpy": "2.5.3"
+  },
+  "sha256": {
+    "stage4.py": "81aa09090c7fa00d87f7dd96ed586046c0d378a3a20370b389f2a1ea970bb202",
+    "hypothesis.py": "5b52b34e3ab96ad313e04a62930780fff0afe3406650ba8488ed15fbc94f8a79",
+    "PROTOCOL-v002.1.md": "fc2ec9efdfaa1b1ee936f3f28f9a7acd4b28334e71ba35d8bdc36f8f41c30a58"
+  }
+}

@@ -16,3 +16,4 @@ venv/
 
 # 实验临时输出（正式结果目录 runs/ 与 examples/ 保留入库）
 runs/tmp*/
+runs/smoke*/

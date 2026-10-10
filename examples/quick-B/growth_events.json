@@ -1,0 +1,13 @@
+[
+  {
+    "step": 8,
+    "small_loss": 0.7799979034569584,
+    "wide_loss": 0.460211417159063,
+    "gain": 0.3197864862978954,
+    "gate": 0.014600000000000002,
+    "accepted": true,
+    "world": 5,
+    "policy": "active",
+    "memory": "grow"
+  }
+]

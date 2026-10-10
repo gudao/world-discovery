@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "versions": {
+    "mujoco": "3.15.0",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "elapsed_seconds": 17.336906866999925,
+  "sha256": {
+    "model.npz": "56df19ae489d678befa72d30e76bdbed27552adf2cc5f4589b101e690dc17ba9",
+    "config.json": "dfc2845117193ed677a364e68763e082f310d195f44dfe5e7e47ba230592704d",
+    "evaluator_only_worlds.json": "f50da6f862e1b35dd369fc37a1b38fb61ad64a1d960a48d9864d71274797a6d4",
+    "validation.npz": "74ca0de9ea207104d391d20ad6654b95b01447077e6151e65c6b2a3b58348a2d",
+    "growth_events.json": "8ef58022f52a7e633e2ec6aa0b85647bdd08367698b817e98209f8cfc9360a11",
+    "metrics.csv": "6b7d7f0fdb1efdcbfbceaa60015d6e1dd9f57e82a3d8143789e0a5604ae95c0e",
+    "train.npz": "f633ff586c06274fdc68a4f8d2d7f8427478ef5377cdc98bc6015f43c9c567c4",
+    "protocol.json": "39852e75c7c1951ae03747d21a3cff47fdc026c6663339752a3308758fe67152",
+    "calibration.json": "9152019f7a9cc3b6306c85cebdf555dbd0238cac6c885a857acf9d7eb5d97690",
+    "interactions.jsonl": "6b84a0d7a525befbc7a7e8c7f71bec690b76fb7fada62ff3a2456c9c830e07f1",
+    "summary.json": "95c8a178a91255ad39bf3dd25b96186d958f6847f301cf86b8232b1e7b53b0fa"
+  },
+  "source_sha256": {
+    "src/world_discovery/__init__.py": "7c16ae1895a8ee401e0b9fb7fcbfcdbcfb3bd619e61f82ecc207867668fb36d4",
+    "src/world_discovery/cli.py": "180298c116f903638e5983d11ba577fe740213e97e45846429483361734f924e",
+    "src/world_discovery/env.py": "bd602f62eaa9b0da7e99814c4334cd778c7fce151032361053e01f774ee378e7",
+    "src/world_discovery/experiment.py": "4f5212e7953bf62785bc7eb27c921ca60c44a4f12c270adcc0fec7e8a485df1d",
+    "src/world_discovery/explorer.py": "35ed07d7a307bd8e4ec626ba7030f1d8a7cffbc66fd631f9fdaa15079d6d98f6",
+    "src/world_discovery/model.py": "5ee0e0ea9be09a384a7b2d0412b2e932ad3fb86b26dce62259dbec4ef742e570",
+    "src/world_discovery/report.py": "b11ff6c5cfd8a33baf096e9a05730f8fec43ba2c84bc30879faa0a49f2d7578e",
+    "src/world_discovery/viewer.py": "6280a48c48f68d0bb87c0f09d30471c317cbfee745673de70827d44f45470470"
+  }
+}

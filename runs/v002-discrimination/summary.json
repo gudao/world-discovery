@@ -1,0 +1,132 @@
+{
+  "protocol": "v0.2.0",
+  "policies": {
+    "fixed": {
+      "accuracy": 0.995,
+      "pairs": 200,
+      "effort": 9.299999999999997,
+      "by_type": {
+        "friction": 0.9857142857142858,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "11": 0.975,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0
+      }
+    },
+    "ig": {
+      "accuracy": 1.0,
+      "pairs": 200,
+      "effort": 4.86825,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0
+      }
+    },
+    "random": {
+      "accuracy": 1.0,
+      "pairs": 200,
+      "effort": 10.091249999999999,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0
+      }
+    },
+    "v01_active": {
+      "accuracy": 1.0,
+      "pairs": 200,
+      "effort": 16.21575,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "11": 1.0,
+        "12": 1.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0
+      }
+    }
+  },
+  "paired": {
+    "ig_minus_fixed": {
+      "per_seed": [
+        0.025,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.005,
+      "seed_se": 0.005,
+      "ci95": [
+        -0.008879999999999999,
+        0.01888
+      ]
+    },
+    "ig_minus_random": {
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "seed_se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "ig_minus_v01_active": {
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "seed_se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "sigma": [
+    0.004007982811194091,
+    0.04242598298891481
+  ],
+  "verdict": [
+    "\u73af\u5883\u8fc7\u4fbf\u5b9c\u6761\u6b3e\u89e6\u53d1\uff1afixed >= 0.95\u3002\u4e0d\u505a\u7b56\u7565\u6392\u540d\uff0c\u8fdb\u5165\u534f\u8bae\u7b2c 7 \u8282\u9636\u6bb5 4 \u73af\u5883\u5347\u7ea7\u3002"
+  ],
+  "pre_registered": {
+    "ig_accuracy": 0.85,
+    "edge_over_fixed": 0.1,
+    "fixed_too_easy": 0.95
+  }
+}

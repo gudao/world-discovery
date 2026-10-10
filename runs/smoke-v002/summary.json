@@ -1,0 +1,104 @@
+{
+  "protocol": "v0.2.0",
+  "policies": {
+    "fixed": {
+      "accuracy": 1.0,
+      "pairs": 6,
+      "effort": 9.299999999999999,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "99": 1.0
+      }
+    },
+    "ig": {
+      "accuracy": 1.0,
+      "pairs": 6,
+      "effort": 5.1000000000000005,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "99": 1.0
+      }
+    },
+    "random": {
+      "accuracy": 1.0,
+      "pairs": 6,
+      "effort": 10.549999999999999,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "99": 1.0
+      }
+    },
+    "v01_active": {
+      "accuracy": 1.0,
+      "pairs": 6,
+      "effort": 16.05,
+      "by_type": {
+        "friction": 1.0,
+        "mass": 1.0,
+        "fixed": 1.0
+      },
+      "by_seed": {
+        "99": 1.0
+      }
+    }
+  },
+  "paired": {
+    "ig_minus_fixed": {
+      "per_seed": [
+        0.0
+      ],
+      "mean": 0.0,
+      "seed_se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "ig_minus_random": {
+      "per_seed": [
+        0.0
+      ],
+      "mean": 0.0,
+      "seed_se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "ig_minus_v01_active": {
+      "per_seed": [
+        0.0
+      ],
+      "mean": 0.0,
+      "seed_se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "sigma": [
+    0.004007982811194091,
+    0.04242598298891481
+  ],
+  "verdict": [
+    "\u73af\u5883\u8fc7\u4fbf\u5b9c\u6761\u6b3e\u89e6\u53d1\uff1afixed >= 0.95\u3002\u4e0d\u505a\u7b56\u7565\u6392\u540d\uff0c\u8fdb\u5165\u534f\u8bae\u7b2c 7 \u8282\u9636\u6bb5 4 \u73af\u5883\u5347\u7ea7\u3002"
+  ],
+  "pre_registered": {
+    "ig_accuracy": 0.85,
+    "edge_over_fixed": 0.1,
+    "fixed_too_easy": 0.95
+  }
+}

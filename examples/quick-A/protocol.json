@@ -1,0 +1,18 @@
+{
+  "experiment": "A",
+  "split_ids_unique": true,
+  "hidden_truth_location": "evaluator_only_worlds.json",
+  "observation": [
+    "ideal_x_position",
+    "ideal_x_velocity"
+  ],
+  "input": [
+    "x_velocity",
+    "force",
+    "duration"
+  ],
+  "prediction": [
+    "delta_x_position",
+    "delta_x_velocity"
+  ]
+}

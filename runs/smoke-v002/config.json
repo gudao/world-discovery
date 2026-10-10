@@ -1,0 +1,47 @@
+{
+  "protocol": "v0.2.0",
+  "protocol_doc": "docs/PROTOCOL-v002.md",
+  "frozen_dir": "examples/quick-A",
+  "seeds": [
+    99
+  ],
+  "pairs_per_seed": 6,
+  "policies": [
+    "random",
+    "fixed",
+    "v01_active",
+    "ig"
+  ],
+  "probe_budget": 12,
+  "particles": 200,
+  "forces": [
+    0,
+    -12,
+    -6,
+    -2,
+    2,
+    6,
+    12
+  ],
+  "duration": 0.15,
+  "timestep": 0.002,
+  "exploration_probability": 0.15,
+  "cost_lambda": 0.05,
+  "train_mass": [
+    0.4,
+    1.6
+  ],
+  "train_friction": [
+    0.15,
+    0.7
+  ],
+  "fixed_probability": 0.2,
+  "min_friction_delta": 0.2,
+  "min_mass_delta": 0.5,
+  "identifiability_sigma_multiple": 6.0,
+  "identifiability_min_queries": 2,
+  "calibration_seed": 7,
+  "calibration_worlds": 12,
+  "calibration_steps": 12,
+  "sigma_inflation": 1.2
+}

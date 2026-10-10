@@ -1,0 +1,10 @@
+{
+  "normalized_error_threshold": 0.2507387398863129,
+  "validation_nmse": 0.08423719185680228,
+  "training_member_nmse": [
+    0.13679676554183826,
+    0.14194293696965127,
+    0.13621222158622828
+  ],
+  "note": "Global validation threshold; conservative heuristic, not calibrated post-adaptation."
+}

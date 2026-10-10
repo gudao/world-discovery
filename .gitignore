@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+
+# macOS / 编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 实验临时输出（正式结果目录 runs/ 与 examples/ 保留入库）
+runs/tmp*/

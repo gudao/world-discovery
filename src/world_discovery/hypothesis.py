@@ -22,6 +22,7 @@ def analytic_rollout(x, v, force, duration, mass, mu, fixed, dt=0.002):
     """Coulomb sliding integration, vectorized over particles.
 
     x, v: shape (P,). mass, mu: broadcastable to (P,). fixed: boolean (P,).
+    force: scalar or shape (P,) -- per-particle external force.
     Returns next (x, v), each shape (P,). Substeps match the MuJoCo timestep
     so integration error is of the same order as the simulator's.
     """
@@ -30,15 +31,16 @@ def analytic_rollout(x, v, force, duration, mass, mu, fixed, dt=0.002):
     mass = np.broadcast_to(np.asarray(mass, dtype=float), x.shape).astype(float).copy()
     mu = np.broadcast_to(np.asarray(mu, dtype=float), x.shape).astype(float).copy()
     fixed = np.broadcast_to(np.asarray(fixed, dtype=bool), x.shape).copy()
+    force = np.broadcast_to(np.asarray(force, dtype=float), x.shape)
     steps = int(round(float(duration) / dt))
     for _ in range(steps):
         moving = np.abs(v) > V_EPS
         friction = mu * mass * G
         a = np.zeros_like(v)
         kin = moving & ~fixed
-        a[kin] = (force - np.sign(v[kin]) * friction[kin]) / mass[kin]
-        stat = (~moving) & (~fixed) & (abs(force) > friction)
-        a[stat] = (force - np.sign(force) * friction[stat]) / mass[stat]
+        a[kin] = (force[kin] - np.sign(v[kin]) * friction[kin]) / mass[kin]
+        stat = (~moving) & (~fixed) & (np.abs(force) > friction)
+        a[stat] = (force[stat] - np.sign(force[stat]) * friction[stat]) / mass[stat]
         v_new = v + a * dt
         # Stick within the substep when deceleration passes through zero.
         stop = moving & (np.sign(a) == -np.sign(v)) & (np.abs(v) <= np.abs(a) * dt)
@@ -108,14 +110,25 @@ class ParticleHypotheses:
 
     # -- experimental design ---------------------------------------------
     def information_gain(self, obs, candidates):
-        """Moment-matching EIG per candidate action, in nats."""
-        igs = np.zeros(len(candidates))
-        for i, action in enumerate(candidates):
-            d = self.delta_prediction(obs, action)
-            mean = d.T @ self.w
-            var = ((d - mean) ** 2).T @ self.w  # weighted variance per dim
-            igs[i] = 0.5 * float(np.sum(np.log(1.0 + var / self.sigma ** 2)))
-        return igs
+        """Moment-matching EIG per candidate action, in nats (protocol 8.1).
+
+        All candidates are rolled out in one vectorized call; the math is
+        identical to a per-candidate loop (validated by
+        tests/test_prior_floor.py::test_information_gain_equivalence).
+        """
+        n, p = len(candidates), len(self.w)
+        x = np.full(n * p, float(obs[0]))
+        v = np.full(n * p, float(obs[1]))
+        force = np.repeat(np.asarray(candidates[:, 0], dtype=float), p)
+        mass = np.tile(self.mass, n)
+        mu = np.tile(self.mu, n)
+        fixed = np.tile(self.fixed, n)
+        x1, v1 = analytic_rollout(x, v, force, float(candidates[0, 1]), mass, mu,
+                                  fixed, self.config['timestep'])
+        d = np.stack([x1 - float(obs[0]), v1 - float(obs[1])], axis=1).reshape(n, p, 2)
+        mean = np.einsum('npd,p->nd', d, self.w)
+        var = np.einsum('npd,p->nd', (d - mean[:, None, :]) ** 2, self.w)
+        return 0.5 * np.sum(np.log(1.0 + var / self.sigma ** 2), axis=1)
 
     def choose(self, obs, candidates, prev_action):
         """Frozen scoring rule (protocol sections 2 and 8.1).

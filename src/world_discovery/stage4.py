@@ -113,15 +113,20 @@ def probe_world(policy, spec_dict, config, rng_policy, rng_noise, model, thresho
     cands = candidate_actions(config)
     reader = ParticleHypotheses(config, rng_policy, sigma_total)
     memory = LocalMemory(model, v01cfg, 'small') if policy == 'v01_active' else None
-    fixed7_index = {f: i for i, f in enumerate(config['fixed7_forces'])}
-    fixed7_seq = [fixed7_index[f] for f in config['fixed7_forces']]
+    fixed7 = config['fixed7_forces']
     prev, effort, forces_taken = None, 0.0, []
     for step in range(config['probe_budget']):
         obs = world.observe()
         if policy == 'random':
             action, branch = cands[int(rng_policy.integers(len(cands)))].copy(), 'random'
         elif policy == 'fixed7':
-            action = cands[fixed7_seq[step % len(fixed7_seq)]].copy()
+            # 2026-10-11 defect fix: the original version mapped indices of
+            # fixed7_forces into the 25-level candidate grid, silently executing
+            # a descending single-sided scan [-12..-8] instead of the protocol's
+            # classic sweep [0,-12,-6,-2,2,6,12]. Both stage 4 and the first
+            # stage-5 run used the buggy baseline; see the errata in their
+            # reports. The force is now taken directly from the frozen list.
+            action = np.array([fixed7[step % len(fixed7)], config['duration']], dtype=float)
             branch = 'fixed7'
         elif policy == 'v01_active':
             action = choose_action('active', memory, obs, cands, rng_policy, step, v01cfg)

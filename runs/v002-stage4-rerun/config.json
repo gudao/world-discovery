@@ -1,0 +1,87 @@
+{
+  "protocol": "v0.2.1",
+  "protocol_doc": "docs/PROTOCOL-v002.1.md",
+  "frozen_dir": "examples/quick-A",
+  "seeds": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "pairs_per_seed": 40,
+  "pair_strata": {
+    "friction": 20,
+    "mass": 20
+  },
+  "policies": [
+    "random",
+    "fixed7",
+    "v01_active",
+    "ig"
+  ],
+  "probe_budget": 8,
+  "particles": 200,
+  "forces": [
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "fixed7_forces": [
+    0,
+    -12,
+    -6,
+    -2,
+    2,
+    6,
+    12
+  ],
+  "duration": 0.15,
+  "timestep": 0.002,
+  "obs_noise": [
+    0.005,
+    0.08
+  ],
+  "exploration_probability": 0.15,
+  "cost_lambda": 0.05,
+  "train_mass": [
+    0.4,
+    1.6
+  ],
+  "train_friction": [
+    0.15,
+    0.7
+  ],
+  "min_friction_delta": 0.15,
+  "friction_mass_guard": 0.08,
+  "min_mass_delta": 0.3,
+  "mass_friction_guard": 0.05,
+  "identifiability_nats": 8.0,
+  "fixed_probability": 0.2,
+  "calibration_seed": 7,
+  "calibration_worlds": 12,
+  "calibration_steps": 12,
+  "sigma_inflation": 1.2
+}

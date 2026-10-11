@@ -1,0 +1,17 @@
+{
+  "sigma": [
+    0.005234461095870429,
+    0.05301680557738392
+  ],
+  "raw_std": [
+    0.0043620509132253574,
+    0.0441806713144866
+  ],
+  "residual_mean": [
+    0.0001648099045729679,
+    -0.003526685140166989
+  ],
+  "n_samples": 144,
+  "inflation": 1.2,
+  "note": "Analytic family with TRUE parameters vs MuJoCo on the training distribution; sigma never touches test truth."
+}

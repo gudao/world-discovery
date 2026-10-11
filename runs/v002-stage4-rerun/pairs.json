@@ -1,0 +1,2812 @@
+{
+  "26": [
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.7013604006352349,
+        "friction": 0.6377323551452518,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6601047340324903,
+        "friction": 0.29810624301050587,
+        "fixed": false
+      },
+      "identifiability_nats": 4171.8438746585225
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5292361013745788,
+        "friction": 0.6976940240039514,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4791135938538327,
+        "friction": 0.33935842733750293,
+        "fixed": false
+      },
+      "identifiability_nats": 609.872453019665
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.563812368903164,
+        "friction": 0.6517887863733385,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.639268827040116,
+        "friction": 0.42479929185198995,
+        "fixed": false
+      },
+      "identifiability_nats": 316.2943781816824
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5738409048548956,
+        "friction": 0.6512162270392167,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5510007034122417,
+        "friction": 0.3062455141884342,
+        "fixed": false
+      },
+      "identifiability_nats": 627.9212277837228
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8281912853827259,
+        "friction": 0.233819486850972,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7657627223396402,
+        "friction": 0.6189765763737807,
+        "fixed": false
+      },
+      "identifiability_nats": 2615.4409757097974
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.7053236827029374,
+        "friction": 0.6985535768037842,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7401990347308761,
+        "friction": 0.5215527008237589,
+        "fixed": false
+      },
+      "identifiability_nats": 406.22996595701954
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.93127920940828,
+        "friction": 0.5413175057767968,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8963382391562342,
+        "friction": 0.23174055390007378,
+        "fixed": false
+      },
+      "identifiability_nats": 2798.688063558218
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3170143238325978,
+        "friction": 0.20572997876522633,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2535838874843719,
+        "friction": 0.6337307712166266,
+        "fixed": false
+      },
+      "identifiability_nats": 1861.0750723060646
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.311531488550149,
+        "friction": 0.47693094540538594,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2876538461192508,
+        "friction": 0.22206413994749105,
+        "fixed": false
+      },
+      "identifiability_nats": 1364.0561552733957
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5882518793013842,
+        "friction": 0.23509479158680568,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5807543615379918,
+        "friction": 0.43543991275823735,
+        "fixed": false
+      },
+      "identifiability_nats": 547.0804446114184
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1640231057468282,
+        "friction": 0.44362334550436483,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.139792421746122,
+        "friction": 0.6715795747464274,
+        "fixed": false
+      },
+      "identifiability_nats": 337.0504860316975
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0792421266310577,
+        "friction": 0.2944312558740738,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0082535262129912,
+        "friction": 0.5176084577277442,
+        "fixed": false
+      },
+      "identifiability_nats": 713.5403079720224
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.7982257305659509,
+        "friction": 0.45341939762548095,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8133269062158207,
+        "friction": 0.6395056338868935,
+        "fixed": false
+      },
+      "identifiability_nats": 906.1622592214528
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5647940853693256,
+        "friction": 0.4535998372328636,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6425219497480962,
+        "friction": 0.21781539068951147,
+        "fixed": false
+      },
+      "identifiability_nats": 529.9943546490545
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4620469997576528,
+        "friction": 0.1587516894542779,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4308870788355323,
+        "friction": 0.4825139708976994,
+        "fixed": false
+      },
+      "identifiability_nats": 1587.2563402598953
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2517910571332918,
+        "friction": 0.19550809038974817,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1895924646437508,
+        "friction": 0.5049501697222647,
+        "fixed": false
+      },
+      "identifiability_nats": 1649.974366684704
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2117428454375128,
+        "friction": 0.6076449261335869,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.280173272712881,
+        "friction": 0.2742739183082514,
+        "fixed": false
+      },
+      "identifiability_nats": 1086.5873191185683
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.6575394330346845,
+        "friction": 0.4066592246696797,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7148864480023502,
+        "friction": 0.6657299884793301,
+        "fixed": false
+      },
+      "identifiability_nats": 2838.553246733415
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.443886930865181,
+        "friction": 0.5269936156398468,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.444531314560781,
+        "friction": 0.27365503037281075,
+        "fixed": false
+      },
+      "identifiability_nats": 683.264129373258
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0825227496504435,
+        "friction": 0.4991292963188855,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0361234525244838,
+        "friction": 0.6696488826085055,
+        "fixed": false
+      },
+      "identifiability_nats": 160.77743714622136
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4644065738321828,
+        "friction": 0.17331706504365849,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6698716566508922,
+        "friction": 0.1921064621067367,
+        "fixed": false
+      },
+      "identifiability_nats": 7364.753080372186
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3792073706845907,
+        "friction": 0.6877686971247363,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7181878445087756,
+        "friction": 0.6698529075156044,
+        "fixed": false
+      },
+      "identifiability_nats": 2760.497455794006
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.47888115366854217,
+        "friction": 0.25446880265676264,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9698321877238377,
+        "friction": 0.2931602376874209,
+        "fixed": false
+      },
+      "identifiability_nats": 14925.711014338047
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.7562136841998806,
+        "friction": 0.5068276397665189,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1098864768091639,
+        "friction": 0.530040664554677,
+        "fixed": false
+      },
+      "identifiability_nats": 2300.8201054757756
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1894275451887066,
+        "friction": 0.203954738215725,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4865515435891756,
+        "friction": 0.1612973692914753,
+        "fixed": false
+      },
+      "identifiability_nats": 19620.648890486013
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4655432073756103,
+        "friction": 0.4161453634429554,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9520892753181015,
+        "friction": 0.4251089317279285,
+        "fixed": false
+      },
+      "identifiability_nats": 1386.6158352467
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.298187607448917,
+        "friction": 0.624790392123809,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6231380580742516,
+        "friction": 0.5771433591009493,
+        "fixed": false
+      },
+      "identifiability_nats": 6551.784831458477
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6428394071298976,
+        "friction": 0.5489062845997956,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.267510223438825,
+        "friction": 0.5199352792899914,
+        "fixed": false
+      },
+      "identifiability_nats": 5359.944065932285
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3739079371503145,
+        "friction": 0.5134946230847284,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8679467690139278,
+        "friction": 0.4930480990672515,
+        "fixed": false
+      },
+      "identifiability_nats": 1768.7856006835677
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5286915022521684,
+        "friction": 0.5980735217270899,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2800692435275145,
+        "friction": 0.5548580779699607,
+        "fixed": false
+      },
+      "identifiability_nats": 10872.982003882353
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8412301179779107,
+        "friction": 0.2816325917641145,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4327477544518095,
+        "friction": 0.31770116767170453,
+        "fixed": false
+      },
+      "identifiability_nats": 3482.0597306691025
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5870595092274004,
+        "friction": 0.48749061361016355,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5170149511116027,
+        "friction": 0.47735319536860465,
+        "fixed": false
+      },
+      "identifiability_nats": 10489.909560856111
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5136596797256394,
+        "friction": 0.29619975442560015,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.21700939831807,
+        "friction": 0.25936107997059255,
+        "fixed": false
+      },
+      "identifiability_nats": 13814.359680109676
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9165085933313959,
+        "friction": 0.48382625411442415,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4183510029772335,
+        "friction": 0.43878121028298966,
+        "fixed": false
+      },
+      "identifiability_nats": 1138.6820660715011
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9566194237336172,
+        "friction": 0.22049201671667584,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4773232382030526,
+        "friction": 0.254549727193225,
+        "fixed": false
+      },
+      "identifiability_nats": 2091.260739357411
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.7894692298729511,
+        "friction": 0.4991746166539632,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2134375681502854,
+        "friction": 0.545943913540189,
+        "fixed": false
+      },
+      "identifiability_nats": 2453.7931833202633
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6670442833494047,
+        "friction": 0.47408759313124665,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4312851754566196,
+        "friction": 0.48765689631273035,
+        "fixed": false
+      },
+      "identifiability_nats": 6637.661179725968
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4931946661667805,
+        "friction": 0.43019702262625203,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6494868867599587,
+        "friction": 0.46835434114512897,
+        "fixed": false
+      },
+      "identifiability_nats": 7183.966183129923
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.2398180559842498,
+        "friction": 0.4886813323122683,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.41918409709873644,
+        "friction": 0.49654128595463254,
+        "fixed": false
+      },
+      "identifiability_nats": 27856.919025831503
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.434702637682853,
+        "friction": 0.5568675866282505,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5518218625190614,
+        "friction": 0.5501346944226584,
+        "fixed": false
+      },
+      "identifiability_nats": 11678.070523683971
+    }
+  ],
+  "27": [
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5752748012579842,
+        "friction": 0.25613857469485046,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5974012107986877,
+        "friction": 0.5788107285489318,
+        "fixed": false
+      },
+      "identifiability_nats": 779.1810883622227
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9346911757493167,
+        "friction": 0.17596316198359196,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.909120843341345,
+        "friction": 0.5353477875755231,
+        "fixed": false
+      },
+      "identifiability_nats": 2918.054341217339
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.609990533585514,
+        "friction": 0.17765097429584692,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5867213349889842,
+        "friction": 0.6968019447728069,
+        "fixed": false
+      },
+      "identifiability_nats": 6528.89942687264
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.216203510690502,
+        "friction": 0.21125101181615671,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1465768267418839,
+        "friction": 0.3952800736558417,
+        "fixed": false
+      },
+      "identifiability_nats": 573.985377173406
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4967323057997786,
+        "friction": 0.3934944908055454,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.481788505778637,
+        "friction": 0.6189178372821669,
+        "fixed": false
+      },
+      "identifiability_nats": 199.9613276550554
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3170040797555418,
+        "friction": 0.2694666100907452,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.395076731068288,
+        "friction": 0.5461922898507257,
+        "fixed": false
+      },
+      "identifiability_nats": 1121.9453736111684
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.7541235473548793,
+        "friction": 0.4972990783192772,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8218320370423636,
+        "friction": 0.6748520628934364,
+        "fixed": false
+      },
+      "identifiability_nats": 1361.8728151460136
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.375893990473858,
+        "friction": 0.6016381948893349,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4320483656185288,
+        "friction": 0.37472565795552176,
+        "fixed": false
+      },
+      "identifiability_nats": 235.98147499736052
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.6483584594300141,
+        "friction": 0.5938089640655537,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6803450886753263,
+        "friction": 0.38214271820932255,
+        "fixed": false
+      },
+      "identifiability_nats": 756.3859531065089
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2143849355929446,
+        "friction": 0.6799009418123129,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2107405526586943,
+        "friction": 0.18423005637892303,
+        "fixed": false
+      },
+      "identifiability_nats": 2954.0267612701655
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9627722269854476,
+        "friction": 0.46948507317457566,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9036725266625031,
+        "friction": 0.2924851265245418,
+        "fixed": false
+      },
+      "identifiability_nats": 1240.3362823303119
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.835566337574975,
+        "friction": 0.2471982364191371,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8506429648311914,
+        "friction": 0.5797743506093177,
+        "fixed": false
+      },
+      "identifiability_nats": 2971.593461948837
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2928319335425549,
+        "friction": 0.4412136541981894,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2331161940282174,
+        "friction": 0.6097560818469123,
+        "fixed": false
+      },
+      "identifiability_nats": 105.76361802684
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2465980579452385,
+        "friction": 0.516419768055153,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3254799774106505,
+        "friction": 0.6685514103350443,
+        "fixed": false
+      },
+      "identifiability_nats": 158.48805052612252
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8041225733297598,
+        "friction": 0.17015654989838203,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7922914042588549,
+        "friction": 0.4134601653868698,
+        "fixed": false
+      },
+      "identifiability_nats": 1619.6957649966598
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5333165760635298,
+        "friction": 0.3268926773079916,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5782575893267702,
+        "friction": 0.4788209240246752,
+        "fixed": false
+      },
+      "identifiability_nats": 1790.6407066995841
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1587733121812638,
+        "friction": 0.32161800947508384,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1716252678791637,
+        "friction": 0.4998023575448256,
+        "fixed": false
+      },
+      "identifiability_nats": 702.601767898286
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0168534080451468,
+        "friction": 0.6686765889798899,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9807726654860497,
+        "friction": 0.18642199650337962,
+        "fixed": false
+      },
+      "identifiability_nats": 4580.003038884413
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3668787838619547,
+        "friction": 0.5226049496168753,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4275185459800652,
+        "friction": 0.1522213910467239,
+        "fixed": false
+      },
+      "identifiability_nats": 1852.8660944592175
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8378412100221173,
+        "friction": 0.5053524763528966,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8718013855639691,
+        "friction": 0.2102273025089235,
+        "fixed": false
+      },
+      "identifiability_nats": 1881.847103334315
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5134662298963699,
+        "friction": 0.37352310991375104,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8743609789592559,
+        "friction": 0.4028796900533545,
+        "fixed": false
+      },
+      "identifiability_nats": 8527.161997469215
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.904772115883554,
+        "friction": 0.6235639148584037,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4543067086688891,
+        "friction": 0.6205419042602389,
+        "fixed": false
+      },
+      "identifiability_nats": 13775.560937640215
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9608124444440457,
+        "friction": 0.33935208087064633,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6181443610294075,
+        "friction": 0.3269698569145111,
+        "fixed": false
+      },
+      "identifiability_nats": 4244.975921007955
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.434544478343869,
+        "friction": 0.39089831783871287,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0461273809371088,
+        "friction": 0.39523430792407616,
+        "fixed": false
+      },
+      "identifiability_nats": 21539.983519885318
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5222132979741752,
+        "friction": 0.41532674949401543,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6214959139811451,
+        "friction": 0.41451980471309785,
+        "fixed": false
+      },
+      "identifiability_nats": 10032.158192346698
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5372002542018917,
+        "friction": 0.4948660317961037,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2114633889145623,
+        "friction": 0.48432234209381364,
+        "fixed": false
+      },
+      "identifiability_nats": 188.34131796308174
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6834107490230646,
+        "friction": 0.27837489430647777,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1548834092782176,
+        "friction": 0.30016329724066565,
+        "fixed": false
+      },
+      "identifiability_nats": 4761.593784919156
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3202729103566864,
+        "friction": 0.40396227596509343,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.733325364240973,
+        "friction": 0.36230254165991777,
+        "fixed": false
+      },
+      "identifiability_nats": 5078.250877385883
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6612022946880362,
+        "friction": 0.4549065083394774,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5857785668880218,
+        "friction": 0.4074596290250298,
+        "fixed": false
+      },
+      "identifiability_nats": 7274.03186919151
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.47204540554551,
+        "friction": 0.563005847017523,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9799705653289018,
+        "friction": 0.5200366918165937,
+        "fixed": false
+      },
+      "identifiability_nats": 934.6118424337742
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6897545101535342,
+        "friction": 0.16763788533237772,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0967695533931525,
+        "friction": 0.15167579513844334,
+        "fixed": false
+      },
+      "identifiability_nats": 3185.8293620606014
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.741316478706244,
+        "friction": 0.3062611792904017,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5721906164503896,
+        "friction": 0.2614306203692842,
+        "fixed": false
+      },
+      "identifiability_nats": 5045.936211575957
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.0138637727999322,
+        "friction": 0.6433403365421789,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5556671517461831,
+        "friction": 0.6164512993872344,
+        "fixed": false
+      },
+      "identifiability_nats": 7385.068677026805
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4278765573980932,
+        "friction": 0.6934654311409114,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7956764056300438,
+        "friction": 0.6591011519484186,
+        "fixed": false
+      },
+      "identifiability_nats": 1770.6901986764492
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6224057747874295,
+        "friction": 0.5972620260429802,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1532926225663533,
+        "friction": 0.5889687771065316,
+        "fixed": false
+      },
+      "identifiability_nats": 5201.341325827862
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.0445170334539604,
+        "friction": 0.6172205573135041,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6060897988815731,
+        "friction": 0.6602970993817878,
+        "fixed": false
+      },
+      "identifiability_nats": 4077.8991517372965
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3622953101608528,
+        "friction": 0.19914581400480413,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7730181940723103,
+        "friction": 0.16043007062447764,
+        "fixed": false
+      },
+      "identifiability_nats": 4585.137040442896
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.0481104643540604,
+        "friction": 0.6955244264549753,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.420600053325947,
+        "friction": 0.6959667423807595,
+        "fixed": false
+      },
+      "identifiability_nats": 231.5013947379299
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.4780795642589134,
+        "friction": 0.23708920688327342,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8424976771491446,
+        "friction": 0.21266306459917822,
+        "fixed": false
+      },
+      "identifiability_nats": 9057.254974161082
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.45552463931693504,
+        "friction": 0.4041692626544645,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8360020346581237,
+        "friction": 0.421640692197068,
+        "fixed": false
+      },
+      "identifiability_nats": 12481.123140422034
+    }
+  ],
+  "28": [
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5876806713037451,
+        "friction": 0.6486382098118497,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5238172478297491,
+        "friction": 0.2081621638352856,
+        "fixed": false
+      },
+      "identifiability_nats": 9291.664600782455
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5352557254337426,
+        "friction": 0.643473250492916,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.47970980220613124,
+        "friction": 0.4515452237061404,
+        "fixed": false
+      },
+      "identifiability_nats": 3074.121809884774
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.6170972400106484,
+        "friction": 0.20147296373005288,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6700609120002959,
+        "friction": 0.420032287671546,
+        "fixed": false
+      },
+      "identifiability_nats": 2677.384018963383
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5105413692757996,
+        "friction": 0.24563441761167595,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.543765359872483,
+        "friction": 0.6711184568682583,
+        "fixed": false
+      },
+      "identifiability_nats": 1198.8751504021136
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.249988830891684,
+        "friction": 0.17830975243610653,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2875955245160953,
+        "friction": 0.6903125393109915,
+        "fixed": false
+      },
+      "identifiability_nats": 2987.942751972175
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.458121714052537,
+        "friction": 0.45204020361544966,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4433273137023466,
+        "friction": 0.17179991646469445,
+        "fixed": false
+      },
+      "identifiability_nats": 1437.318436856924
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5381227260566634,
+        "friction": 0.39728970693687055,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5161797995518969,
+        "friction": 0.24211846529094386,
+        "fixed": false
+      },
+      "identifiability_nats": 512.4925676237642
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2243548004475675,
+        "friction": 0.6441062556997735,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2024301836530809,
+        "friction": 0.3442511835708142,
+        "fixed": false
+      },
+      "identifiability_nats": 939.2043008732762
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4820167588657602,
+        "friction": 0.6207940329841901,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4399406143368245,
+        "friction": 0.24643762142703757,
+        "fixed": false
+      },
+      "identifiability_nats": 1250.9400763575468
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.47182538962975634,
+        "friction": 0.6256646310080155,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5355526203240635,
+        "friction": 0.42066401871177006,
+        "fixed": false
+      },
+      "identifiability_nats": 211.13218053218333
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.012051310628417,
+        "friction": 0.2455724853803991,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0297460416477406,
+        "friction": 0.6126057725594509,
+        "fixed": false
+      },
+      "identifiability_nats": 2782.609136517332
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.13844393624118,
+        "friction": 0.5478026412911449,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0688238338424907,
+        "friction": 0.1842228282075645,
+        "fixed": false
+      },
+      "identifiability_nats": 3361.093808218783
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4206204648428327,
+        "friction": 0.42558468249931797,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3850105823191468,
+        "friction": 0.6104332209755079,
+        "fixed": false
+      },
+      "identifiability_nats": 124.50464708068782
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9053130512759957,
+        "friction": 0.6146154351332016,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8371765167862224,
+        "friction": 0.20916476568350673,
+        "fixed": false
+      },
+      "identifiability_nats": 5051.708193924106
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3753083185206365,
+        "friction": 0.5516329061578745,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3317307950930752,
+        "friction": 0.24962479141901248,
+        "fixed": false
+      },
+      "identifiability_nats": 1246.0254877377588
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.238792360561475,
+        "friction": 0.5138277237346099,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1985937770924306,
+        "friction": 0.1925422616976496,
+        "fixed": false
+      },
+      "identifiability_nats": 2232.785846623875
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.001952485024342,
+        "friction": 0.5822982890130023,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9822235663826486,
+        "friction": 0.20067347540384095,
+        "fixed": false
+      },
+      "identifiability_nats": 3460.701227483627
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1635283991981686,
+        "friction": 0.6864092036879548,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1882937754816596,
+        "friction": 0.1856717975940431,
+        "fixed": false
+      },
+      "identifiability_nats": 2970.3182465450072
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8626063113050069,
+        "friction": 0.6412431099258511,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8614856098318524,
+        "friction": 0.1715354629238959,
+        "fixed": false
+      },
+      "identifiability_nats": 5235.989851996191
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5015676045172752,
+        "friction": 0.4896151873838331,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5030400794763051,
+        "friction": 0.16578158191325312,
+        "fixed": false
+      },
+      "identifiability_nats": 3379.0350189768405
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5342950253903455,
+        "friction": 0.5554676056738663,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2045777072443935,
+        "friction": 0.5552383417625704,
+        "fixed": false
+      },
+      "identifiability_nats": 11180.938428249152
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8349445022430027,
+        "friction": 0.23726676058966448,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3999439527285968,
+        "friction": 0.20891314877426215,
+        "fixed": false
+      },
+      "identifiability_nats": 2357.1520343215016
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.2767876984125859,
+        "friction": 0.36824589788309836,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7227329050348377,
+        "friction": 0.334980723171648,
+        "fixed": false
+      },
+      "identifiability_nats": 4928.523511169742
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.4172305010023542,
+        "friction": 0.25277882418722186,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9534962683003798,
+        "friction": 0.241423181244599,
+        "fixed": false
+      },
+      "identifiability_nats": 21293.569985919297
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.803371149616758,
+        "friction": 0.4803582378651828,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.42768456146012884,
+        "friction": 0.5246011349926608,
+        "fixed": false
+      },
+      "identifiability_nats": 12495.59871955192
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4989212479268261,
+        "friction": 0.5740822903818376,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8193739714811015,
+        "friction": 0.5983557608574773,
+        "fixed": false
+      },
+      "identifiability_nats": 1749.6057570292587
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.811657049681272,
+        "friction": 0.38337831527124766,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5425501968770559,
+        "friction": 0.34377061616129134,
+        "fixed": false
+      },
+      "identifiability_nats": 3270.194951270814
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1634999931032717,
+        "friction": 0.6138986401838995,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5627755421818061,
+        "friction": 0.5818229962110536,
+        "fixed": false
+      },
+      "identifiability_nats": 8860.588797094431
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8216424153674489,
+        "friction": 0.5470250945907594,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4761230538562857,
+        "friction": 0.5165640030764198,
+        "fixed": false
+      },
+      "identifiability_nats": 2007.927302662968
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1511411326793237,
+        "friction": 0.48741587308767076,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4728214364031727,
+        "friction": 0.4877833546625914,
+        "fixed": false
+      },
+      "identifiability_nats": 17890.1689097591
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.42831462752327726,
+        "friction": 0.2845601296884707,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4592130664827199,
+        "friction": 0.32012395570556423,
+        "fixed": false
+      },
+      "identifiability_nats": 34388.43189768791
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9127124179135667,
+        "friction": 0.6917467727731847,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4116151783530935,
+        "friction": 0.6858306011362302,
+        "fixed": false
+      },
+      "identifiability_nats": 19678.810784497713
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.0042931599206175,
+        "friction": 0.5080511810636752,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5589266195746767,
+        "friction": 0.4736760637409137,
+        "fixed": false
+      },
+      "identifiability_nats": 8197.491386101328
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.279662995209444,
+        "friction": 0.6728471695144499,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6798381613568493,
+        "friction": 0.6851422361979678,
+        "fixed": false
+      },
+      "identifiability_nats": 3046.161937718696
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.522253900291092,
+        "friction": 0.5716794582783373,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9456370023504237,
+        "friction": 0.5583092717034479,
+        "fixed": false
+      },
+      "identifiability_nats": 986.5511701383957
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3742489003909668,
+        "friction": 0.3416981191158848,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7911493763037888,
+        "friction": 0.3368011031309515,
+        "fixed": false
+      },
+      "identifiability_nats": 3481.44571019839
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6498991701826216,
+        "friction": 0.4458757807830479,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.391976405035228,
+        "friction": 0.4731396857086865,
+        "fixed": false
+      },
+      "identifiability_nats": 7742.922819210564
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.4917568601033266,
+        "friction": 0.6582318705301693,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7950617524649637,
+        "friction": 0.6363972876238447,
+        "fixed": false
+      },
+      "identifiability_nats": 6241.714530017642
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.234166881877214,
+        "friction": 0.47568624397838444,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.43107323560105454,
+        "friction": 0.5083234295477415,
+        "fixed": false
+      },
+      "identifiability_nats": 24429.22981326827
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8693139094326425,
+        "friction": 0.40844911978502746,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.285746820028761,
+        "friction": 0.3900776540539635,
+        "fixed": false
+      },
+      "identifiability_nats": 1407.0093196891953
+    }
+  ],
+  "29": [
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1999137358703948,
+        "friction": 0.6693384841006926,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1317244000328979,
+        "friction": 0.4676370135947894,
+        "fixed": false
+      },
+      "identifiability_nats": 403.02614167064496
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8727969261435335,
+        "friction": 0.5963083884111817,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8683828450109515,
+        "friction": 0.34846677586811403,
+        "fixed": false
+      },
+      "identifiability_nats": 1424.2632820377175
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.759633247446418,
+        "friction": 0.6858948780893971,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7776572486679424,
+        "friction": 0.27268977087434787,
+        "fixed": false
+      },
+      "identifiability_nats": 3735.2452770382156
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.2616380542690762,
+        "friction": 0.5057426220210238,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1939800405384196,
+        "friction": 0.2755455761918891,
+        "fixed": false
+      },
+      "identifiability_nats": 1239.2799635373244
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3928688777005227,
+        "friction": 0.49541974318045007,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4419246473296854,
+        "friction": 0.2675932506082038,
+        "fixed": false
+      },
+      "identifiability_nats": 592.8594726340866
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1786330651740933,
+        "friction": 0.37756753762129736,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1545279251148972,
+        "friction": 0.18280867711286528,
+        "fixed": false
+      },
+      "identifiability_nats": 1102.2248414328606
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.165415804671349,
+        "friction": 0.3128688221145003,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.12973217787228,
+        "friction": 0.600707172124865,
+        "fixed": false
+      },
+      "identifiability_nats": 1043.6269617350795
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.941648223127454,
+        "friction": 0.508686222394168,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0034133206871498,
+        "friction": 0.20138027947552117,
+        "fixed": false
+      },
+      "identifiability_nats": 1745.3856812961799
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.959582583983197,
+        "friction": 0.29823673394279876,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9373607084839394,
+        "friction": 0.6521554913726214,
+        "fixed": false
+      },
+      "identifiability_nats": 2283.7808014424195
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.301063032794025,
+        "friction": 0.2117588823388176,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.320846363937854,
+        "friction": 0.6387812492532767,
+        "fixed": false
+      },
+      "identifiability_nats": 2045.4174972826002
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.7773054581809947,
+        "friction": 0.36924179103140026,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7776755428936366,
+        "friction": 0.16954586689574605,
+        "fixed": false
+      },
+      "identifiability_nats": 1230.2467785503572
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8248159522468348,
+        "friction": 0.4330633497377535,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.800510788457637,
+        "friction": 0.6188131982207082,
+        "fixed": false
+      },
+      "identifiability_nats": 582.9644748711634
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0467257988999297,
+        "friction": 0.1718068448686782,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0885248338533287,
+        "friction": 0.32693269767167343,
+        "fixed": false
+      },
+      "identifiability_nats": 896.8799913863179
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4814638756987053,
+        "friction": 0.586538323116759,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.536402216705828,
+        "friction": 0.16374300334037306,
+        "fixed": false
+      },
+      "identifiability_nats": 1676.2563811609148
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0658965012278603,
+        "friction": 0.34391602653609393,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1174726402681425,
+        "friction": 0.5158096840195319,
+        "fixed": false
+      },
+      "identifiability_nats": 861.7280964351525
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9295531214291889,
+        "friction": 0.1745599921687147,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8947185862421321,
+        "friction": 0.5510929001425099,
+        "fixed": false
+      },
+      "identifiability_nats": 3073.255346628711
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.4472148611885498,
+        "friction": 0.3479478388036868,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4156393986063727,
+        "friction": 0.18399889669623207,
+        "fixed": false
+      },
+      "identifiability_nats": 2383.827176692512
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.425570702494798,
+        "friction": 0.19588235592813702,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4218417174915026,
+        "friction": 0.5607768526121045,
+        "fixed": false
+      },
+      "identifiability_nats": 1546.8310707920218
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3322193041638317,
+        "friction": 0.49357159181622434,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3627199535018282,
+        "friction": 0.6711783374499491,
+        "fixed": false
+      },
+      "identifiability_nats": 155.60256353645752
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9723958466034557,
+        "friction": 0.4716521418131497,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9098585436677425,
+        "friction": 0.6324261565471914,
+        "fixed": false
+      },
+      "identifiability_nats": 241.10249104942545
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4354112369873737,
+        "friction": 0.3242292111538534,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.48987992505882844,
+        "friction": 0.33056421831492067,
+        "fixed": false
+      },
+      "identifiability_nats": 21186.464913041244
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1328254382434089,
+        "friction": 0.5351544525755703,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5333502322842407,
+        "friction": 0.4986607779796114,
+        "fixed": false
+      },
+      "identifiability_nats": 192.37797612406845
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3891664643294381,
+        "friction": 0.49747162056309085,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6974032589897944,
+        "friction": 0.5161812372723947,
+        "fixed": false
+      },
+      "identifiability_nats": 4597.30278062196
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4290752525846238,
+        "friction": 0.3696183586986602,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.026755189840798,
+        "friction": 0.34556600460528686,
+        "fixed": false
+      },
+      "identifiability_nats": 1081.7322347659294
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5728246660376777,
+        "friction": 0.5166709807789818,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4750034185053273,
+        "friction": 0.4873416383035589,
+        "fixed": false
+      },
+      "identifiability_nats": 10557.201097418074
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.4195669619473683,
+        "friction": 0.43576436115769374,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4104370251161207,
+        "friction": 0.4164832702281645,
+        "fixed": false
+      },
+      "identifiability_nats": 31561.506896782746
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1560573785250976,
+        "friction": 0.2555720831776951,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5412936049097962,
+        "friction": 0.30037173976787507,
+        "fixed": false
+      },
+      "identifiability_nats": 10172.931804528016
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.7756874303749681,
+        "friction": 0.3891531792915454,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3662843300933127,
+        "friction": 0.4179887390107694,
+        "fixed": false
+      },
+      "identifiability_nats": 4080.8568360605577
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.6196629988863301,
+        "friction": 0.2119701336168827,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.043280376139145,
+        "friction": 0.2266612013853461,
+        "fixed": false
+      },
+      "identifiability_nats": 5534.103780577845
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1425070413814877,
+        "friction": 0.18984041430253304,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4466559539004947,
+        "friction": 0.21294470909897734,
+        "fixed": false
+      },
+      "identifiability_nats": 21225.140933976196
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9159641572099337,
+        "friction": 0.44246499135969497,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5314421372009486,
+        "friction": 0.4246242184164965,
+        "fixed": false
+      },
+      "identifiability_nats": 1721.4892030894136
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5998245906245865,
+        "friction": 0.41780294266601276,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1927309054145392,
+        "friction": 0.4564628733590599,
+        "fixed": false
+      },
+      "identifiability_nats": 203.35143664702616
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.7242103442155986,
+        "friction": 0.3806050349032714,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2660884779327741,
+        "friction": 0.37542312829379076,
+        "fixed": false
+      },
+      "identifiability_nats": 4046.6208600291066
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5332822832572108,
+        "friction": 0.6071986485989058,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0735371568563934,
+        "friction": 0.5901600742473607,
+        "fixed": false
+      },
+      "identifiability_nats": 373.78577958224605
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8114366805595392,
+        "friction": 0.6557003831965244,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.588282301415742,
+        "friction": 0.6451471782535998,
+        "fixed": false
+      },
+      "identifiability_nats": 1715.7564989787206
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.2200336767100899,
+        "friction": 0.1742561281603473,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7395783796833592,
+        "friction": 0.2093026220618616,
+        "fixed": false
+      },
+      "identifiability_nats": 2804.2394167977877
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.358290779624148,
+        "friction": 0.5672317506822285,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0216662261237601,
+        "friction": 0.5889983070591538,
+        "fixed": false
+      },
+      "identifiability_nats": 256.88474948224973
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.8014071991692083,
+        "friction": 0.1629679087459324,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.29378687377023,
+        "friction": 0.19565754050490927,
+        "fixed": false
+      },
+      "identifiability_nats": 3294.0108850131533
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.5979885188320172,
+        "friction": 0.6220279338719444,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.250652577637859,
+        "friction": 0.6613554267424089,
+        "fixed": false
+      },
+      "identifiability_nats": 6754.952835902233
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.2690289236733145,
+        "friction": 0.28762722607631286,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8772467182377723,
+        "friction": 0.3189544045641723,
+        "fixed": false
+      },
+      "identifiability_nats": 1145.4659961290645
+    }
+  ],
+  "30": [
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.5868015585318878,
+        "friction": 0.47864962305260816,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5131972009888913,
+        "friction": 0.6809314330840368,
+        "fixed": false
+      },
+      "identifiability_nats": 150.75548674308465
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.529926241994745,
+        "friction": 0.5895521959998458,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4754875368247298,
+        "friction": 0.3651399079718149,
+        "fixed": false
+      },
+      "identifiability_nats": 324.0403793449653
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5649915791584932,
+        "friction": 0.4820151261930227,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5099120888325224,
+        "friction": 0.16710266841347454,
+        "fixed": false
+      },
+      "identifiability_nats": 1512.3417381112504
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8930195119372346,
+        "friction": 0.31439736481757696,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8848579116928768,
+        "friction": 0.5423413969389943,
+        "fixed": false
+      },
+      "identifiability_nats": 1180.9511313636274
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.065726353929551,
+        "friction": 0.6048814530651957,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0791705468748527,
+        "friction": 0.3373828293561512,
+        "fixed": false
+      },
+      "identifiability_nats": 1121.11039981344
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.001684018929684,
+        "friction": 0.6595082735646451,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9398100764923984,
+        "friction": 0.22414329159301236,
+        "fixed": false
+      },
+      "identifiability_nats": 4267.959197471897
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0926751178431104,
+        "friction": 0.3696337683341957,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1488519286256955,
+        "friction": 0.16495034132423758,
+        "fixed": false
+      },
+      "identifiability_nats": 847.4703015157504
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4638388139166432,
+        "friction": 0.695448474275083,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5192770010471035,
+        "friction": 0.4121994846685818,
+        "fixed": false
+      },
+      "identifiability_nats": 220.51896444262604
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.0049111425702517,
+        "friction": 0.15369567252269278,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0554934859751424,
+        "friction": 0.6003994871271454,
+        "fixed": false
+      },
+      "identifiability_nats": 4718.311579666381
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8203050801137077,
+        "friction": 0.6290464895050556,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.8247363863188693,
+        "friction": 0.42943495916523095,
+        "fixed": false
+      },
+      "identifiability_nats": 874.9465376444039
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.3899617876974044,
+        "friction": 0.218558455972079,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.41244599928606,
+        "friction": 0.6950762420060711,
+        "fixed": false
+      },
+      "identifiability_nats": 1844.1870451438162
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.331596500921318,
+        "friction": 0.5818204720354991,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3072057627837983,
+        "friction": 0.16433346215280215,
+        "fixed": false
+      },
+      "identifiability_nats": 2477.373822468923
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.293881825447823,
+        "friction": 0.5695572555478038,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3662132476380484,
+        "friction": 0.15655405750105103,
+        "fixed": false
+      },
+      "identifiability_nats": 2115.8054638748913
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.4018864243973483,
+        "friction": 0.18268489451427078,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.4787005053842406,
+        "friction": 0.5741504163109975,
+        "fixed": false
+      },
+      "identifiability_nats": 1967.904645898569
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.1829357811384231,
+        "friction": 0.39903552307829865,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1699933198208647,
+        "friction": 0.6897691454335572,
+        "fixed": false
+      },
+      "identifiability_nats": 611.7906980539294
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.117890870733313,
+        "friction": 0.545804568502093,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1568682975949294,
+        "friction": 0.3783929752580121,
+        "fixed": false
+      },
+      "identifiability_nats": 391.199627605704
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.9365033970619994,
+        "friction": 0.6499262427740398,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.01318548149051,
+        "friction": 0.4974757811410495,
+        "fixed": false
+      },
+      "identifiability_nats": 153.67296770723465
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 0.8021103270044905,
+        "friction": 0.19364656387580037,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7623132532576932,
+        "friction": 0.39950187216549476,
+        "fixed": false
+      },
+      "identifiability_nats": 864.8538286354678
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.037435999067573,
+        "friction": 0.5383784120148247,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.0240211068712017,
+        "friction": 0.17486968236954148,
+        "fixed": false
+      },
+      "identifiability_nats": 3201.411857659
+    },
+    {
+      "type": "friction",
+      "a": {
+        "mass": 1.5812999689805076,
+        "friction": 0.37390796147214966,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5694626790573982,
+        "friction": 0.22008674671872622,
+        "fixed": false
+      },
+      "identifiability_nats": 501.2058777755884
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3177762929277257,
+        "friction": 0.23691915031137462,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.670965640091957,
+        "friction": 0.2590175166379027,
+        "fixed": false
+      },
+      "identifiability_nats": 5871.379687136965
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.027241298258784,
+        "friction": 0.42110111835777375,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3501388956225242,
+        "friction": 0.44014817368512343,
+        "fixed": false
+      },
+      "identifiability_nats": 728.2097631432036
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.504078487966801,
+        "friction": 0.3888082286291984,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9089884328576942,
+        "friction": 0.37425135075525856,
+        "fixed": false
+      },
+      "identifiability_nats": 2323.076894042275
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.028995705987412,
+        "friction": 0.1795452916151101,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.5457094543642291,
+        "friction": 0.1939485158337206,
+        "fixed": false
+      },
+      "identifiability_nats": 1441.4532432153976
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3946901089452648,
+        "friction": 0.6441151831098939,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.6001661412957889,
+        "friction": 0.6634123799662877,
+        "fixed": false
+      },
+      "identifiability_nats": 6538.857851667465
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5612848158096448,
+        "friction": 0.34680175098628047,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.4729018533854743,
+        "friction": 0.34940065013804045,
+        "fixed": false
+      },
+      "identifiability_nats": 25264.518316170528
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4010904306231293,
+        "friction": 0.4414117971783383,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5154650263334513,
+        "friction": 0.43112381217165735,
+        "fixed": false
+      },
+      "identifiability_nats": 17267.969501437234
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5435534167831537,
+        "friction": 0.22955404729389134,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.43836367925823444,
+        "friction": 0.20369707456984035,
+        "fixed": false
+      },
+      "identifiability_nats": 33478.49826702969
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3177955578439065,
+        "friction": 0.21452355291438138,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.540870819104742,
+        "friction": 0.2479387222944925,
+        "fixed": false
+      },
+      "identifiability_nats": 13048.64582418181
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.4182453324482167,
+        "friction": 0.6621416889182214,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2973006239322442,
+        "friction": 0.6940660926161387,
+        "fixed": false
+      },
+      "identifiability_nats": 24798.403367856987
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3966283271850912,
+        "friction": 0.5694539721347776,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9690431289893272,
+        "friction": 0.549254226366851,
+        "fixed": false
+      },
+      "identifiability_nats": 703.0352731984555
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.3403414071318,
+        "friction": 0.3783487082595883,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.7495840579287977,
+        "friction": 0.35515889471250967,
+        "fixed": false
+      },
+      "identifiability_nats": 4509.610046975755
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.9052550022399126,
+        "friction": 0.6694511354641495,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.597331082822857,
+        "friction": 0.6223926789309028,
+        "fixed": false
+      },
+      "identifiability_nats": 839.427229565367
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.536494532643025,
+        "friction": 0.17593620171575966,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.9753972800280512,
+        "friction": 0.17153256444124695,
+        "fixed": false
+      },
+      "identifiability_nats": 1743.7044572311715
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.5788810354489546,
+        "friction": 0.5402688469189095,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.2291112157759485,
+        "friction": 0.5053541439013405,
+        "fixed": false
+      },
+      "identifiability_nats": 207.53013882780522
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.7569200119708648,
+        "friction": 0.6462964392009586,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.3134333451235254,
+        "friction": 0.6684236811994255,
+        "fixed": false
+      },
+      "identifiability_nats": 2141.0016097212947
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.4195100848767548,
+        "friction": 0.5428701230270272,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.953150514509505,
+        "friction": 0.4958093163552814,
+        "fixed": false
+      },
+      "identifiability_nats": 1128.150792830745
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.1072837684129753,
+        "friction": 0.2873612131016552,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5736858388126755,
+        "friction": 0.27479738292129513,
+        "fixed": false
+      },
+      "identifiability_nats": 8857.679981737921
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 1.0634580508305889,
+        "friction": 0.5556559912897754,
+        "fixed": false
+      },
+      "b": {
+        "mass": 0.5371331988901602,
+        "friction": 0.52224811382821,
+        "fixed": false
+      },
+      "identifiability_nats": 10472.579562423605
+    },
+    {
+      "type": "mass",
+      "a": {
+        "mass": 0.49947079229793134,
+        "friction": 0.20882184318701397,
+        "fixed": false
+      },
+      "b": {
+        "mass": 1.1844684587462897,
+        "friction": 0.16250739165049893,
+        "fixed": false
+      },
+      "identifiability_nats": 14252.837539314578
+    }
+  ]
+}

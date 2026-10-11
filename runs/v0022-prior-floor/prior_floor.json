@@ -1,0 +1,501 @@
+{
+  "sigma_family": [
+    0.005234461095870429,
+    0.05301680557738392
+  ],
+  "design_targets": {
+    "oracle_ceiling": ">= 0.85",
+    "random": "<= 0.75"
+  },
+  "base_overrides": {
+    "probe_budget": 5,
+    "min_friction_delta": 0.12,
+    "friction_mass_guard": 0.06,
+    "min_mass_delta": 0.25,
+    "mass_friction_guard": 0.03,
+    "identifiability_nats": 4.0
+  },
+  "seeds": [
+    31,
+    32
+  ],
+  "pairs_per_stratum": 30,
+  "conditions": [
+    {
+      "obs_noise": [
+        0.005,
+        0.1
+      ],
+      "sigma_total": [
+        0.008797703277798191,
+        0.15103238617472126
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 184.17942902602869,
+        "mass": 267.9278466710139
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.8083333333333333,
+          "effort": 4.678125,
+          "by_type": {
+            "friction": 0.7666666666666667,
+            "mass": 0.85
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.8166666666666667,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.8166666666666667,
+            "mass": 0.8166666666666667
+          }
+        },
+        "ig": {
+          "accuracy": 0.9,
+          "effort": 5.623749999999999,
+          "by_type": {
+            "friction": 0.8666666666666667,
+            "mass": 0.9333333333333333
+          }
+        },
+        "oracle": {
+          "accuracy": 0.9,
+          "effort": 8.085625,
+          "by_type": {
+            "friction": 0.8666666666666667,
+            "mass": 0.9333333333333333
+          }
+        }
+      },
+      "oracle_d_mean": 29.45755540422885
+    },
+    {
+      "obs_noise": [
+        0.005,
+        0.12
+      ],
+      "sigma_total": [
+        0.008797703277798191,
+        0.17779421158640157
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 167.69081869821073,
+        "mass": 246.9996903205599
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.7416666666666667,
+          "effort": 4.673125,
+          "by_type": {
+            "friction": 0.6833333333333333,
+            "mass": 0.8
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.7666666666666667,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.7333333333333333,
+            "mass": 0.8
+          }
+        },
+        "ig": {
+          "accuracy": 0.8583333333333333,
+          "effort": 5.6206249999999995,
+          "by_type": {
+            "friction": 0.8166666666666667,
+            "mass": 0.9
+          }
+        },
+        "oracle": {
+          "accuracy": 0.875,
+          "effort": 8.07125,
+          "by_type": {
+            "friction": 0.8666666666666667,
+            "mass": 0.8833333333333333
+          }
+        }
+      },
+      "oracle_d_mean": 26.439361259018927
+    },
+    {
+      "obs_noise": [
+        0.005,
+        0.15
+      ],
+      "sigma_total": [
+        0.008797703277798191,
+        0.21865676681417873
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 153.2087460896583,
+        "mass": 228.61833047247865
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.7333333333333333,
+          "effort": 4.673125,
+          "by_type": {
+            "friction": 0.6666666666666666,
+            "mass": 0.8
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.7583333333333333,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.75,
+            "mass": 0.7666666666666667
+          }
+        },
+        "ig": {
+          "accuracy": 0.825,
+          "effort": 5.499999999999999,
+          "by_type": {
+            "friction": 0.8,
+            "mass": 0.85
+          }
+        },
+        "oracle": {
+          "accuracy": 0.825,
+          "effort": 8.059999999999999,
+          "by_type": {
+            "friction": 0.8166666666666667,
+            "mass": 0.8333333333333334
+          }
+        }
+      },
+      "oracle_d_mean": 23.782742126085008
+    },
+    {
+      "obs_noise": [
+        0.02,
+        0.12
+      ],
+      "sigma_total": [
+        0.028764554280645147,
+        0.17779421158640157
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 54.429225515902324,
+        "mass": 72.27960696563173
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.7583333333333333,
+          "effort": 4.611249999999999,
+          "by_type": {
+            "friction": 0.7,
+            "mass": 0.8166666666666667
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.775,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.75,
+            "mass": 0.8
+          }
+        },
+        "ig": {
+          "accuracy": 0.9416666666666667,
+          "effort": 6.071875,
+          "by_type": {
+            "friction": 0.9333333333333333,
+            "mass": 0.95
+          }
+        },
+        "oracle": {
+          "accuracy": 0.85,
+          "effort": 8.0725,
+          "by_type": {
+            "friction": 0.7166666666666667,
+            "mass": 0.9833333333333333
+          }
+        }
+      },
+      "oracle_d_mean": 9.607980633649289
+    },
+    {
+      "obs_noise": [
+        0.02,
+        0.15
+      ],
+      "sigma_total": [
+        0.028764554280645147,
+        0.21865676681417873
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 39.94715290734992,
+        "mass": 53.89824711755044
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.7416666666666667,
+          "effort": 4.60375,
+          "by_type": {
+            "friction": 0.6666666666666666,
+            "mass": 0.8166666666666667
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.7,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.7,
+            "mass": 0.7
+          }
+        },
+        "ig": {
+          "accuracy": 0.8916666666666667,
+          "effort": 6.271875,
+          "by_type": {
+            "friction": 0.8666666666666667,
+            "mass": 0.9166666666666666
+          }
+        },
+        "oracle": {
+          "accuracy": 0.8166666666666667,
+          "effort": 8.055,
+          "by_type": {
+            "friction": 0.75,
+            "mass": 0.8833333333333333
+          }
+        }
+      },
+      "oracle_d_mean": 6.949570259041
+    },
+    {
+      "obs_noise": [
+        0.005,
+        0.2
+      ],
+      "sigma_total": [
+        0.008797703277798191,
+        0.28776862524192964
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          1.0,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.4,
+          0.7
+        ],
+        "mass_range": [
+          1.1,
+          1.6
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 141.26523267928283,
+        "mass": 213.45903499174435
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.7583333333333333,
+          "effort": 4.6831249999999995,
+          "by_type": {
+            "friction": 0.7,
+            "mass": 0.8166666666666667
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.6916666666666667,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.6833333333333333,
+            "mass": 0.7
+          }
+        },
+        "ig": {
+          "accuracy": 0.7583333333333333,
+          "effort": 5.3549999999999995,
+          "by_type": {
+            "friction": 0.7833333333333333,
+            "mass": 0.7333333333333333
+          }
+        },
+        "oracle": {
+          "accuracy": 0.6916666666666667,
+          "effort": 8.023125,
+          "by_type": {
+            "friction": 0.6666666666666666,
+            "mass": 0.7166666666666667
+          }
+        }
+      },
+      "oracle_d_mean": 21.607485727196227
+    },
+    {
+      "obs_noise": [
+        0.005,
+        0.15
+      ],
+      "sigma_total": [
+        0.008797703277798191,
+        0.21865676681417873
+      ],
+      "strata_ranges": {
+        "friction_mass_range": [
+          0.4,
+          1.6
+        ],
+        "friction_mu_range": [
+          0.15,
+          0.7
+        ],
+        "mass_range": [
+          0.4,
+          0.9
+        ]
+      },
+      "pairs": 120,
+      "screen_d_mean": {
+        "friction": 1234.359939469899,
+        "mass": 7723.6113705363905
+      },
+      "attempts_per_pair": {
+        "friction": 1.0,
+        "mass": 1.0
+      },
+      "policies": {
+        "random": {
+          "accuracy": 0.9083333333333333,
+          "effort": 4.641249999999999,
+          "by_type": {
+            "friction": 0.8166666666666667,
+            "mass": 1.0
+          }
+        },
+        "fixed7": {
+          "accuracy": 0.9416666666666667,
+          "effort": 3.299999999999999,
+          "by_type": {
+            "friction": 0.8833333333333333,
+            "mass": 1.0
+          }
+        },
+        "ig": {
+          "accuracy": 0.95,
+          "effort": 5.56625,
+          "by_type": {
+            "friction": 0.9,
+            "mass": 1.0
+          }
+        },
+        "oracle": {
+          "accuracy": 0.8583333333333333,
+          "effort": 7.956875,
+          "by_type": {
+            "friction": 0.7166666666666667,
+            "mass": 1.0
+          }
+        }
+      },
+      "oracle_d_mean": 331.0461525927722
+    }
+  ]
+}
